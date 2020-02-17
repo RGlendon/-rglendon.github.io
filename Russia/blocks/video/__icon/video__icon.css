@@ -1,0 +1,30 @@
+.video__icon {
+    width: 41px;
+    height: 41px;
+
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+
+@media all and (max-width: 1024px) {
+    .video__icon {
+        top: calc(24px + (100vw - 768px)/(1024 - 768)*(30 - 24));
+        left: calc(24px + (100vw - 768px)/(1024 - 768)*(30 - 24));
+    }
+}
+
+@media all and (max-width: 768px) {
+    .video__icon {
+        top: 24px;
+        left: 24px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .video__icon {
+        top: calc(16px + (100vw - 320px)/(375 - 320)*(24 - 16));
+        left: calc(16px + (100vw - 320px)/(375 - 320)*(24 - 16));
+    }
+}

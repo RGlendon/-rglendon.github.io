@@ -1,0 +1,66 @@
+/* @import url('../../vendor/Inter/Inter.css'); */
+
+@import url('__sidebar/menu__sidebar.css');
+
+
+.menu {
+  width: 50%;
+  /* height: 948px; */
+  height: 988px;
+
+  position: absolute;
+  top: 132px;
+  left: 0px;
+
+  background-color: var(--color-red);
+
+  z-index: 2;
+  
+  padding-left: 215px;
+  box-sizing: border-box;
+
+  display: none;
+
+  font-family: 'Inter';
+}
+
+
+.menu_appear {
+  display: block;
+}
+
+
+@media all and (max-width: 1440px) {
+  .menu {
+    /* width: 75vw; */
+    height: 65vw;
+
+    padding-left: 135px;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .menu {
+    top: 12.84vw;
+
+    width: 100vw;
+    height: 59.76vw;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .menu {
+    height: 93.88vw;
+
+    padding-left: calc(20px + (135 - 20)*(100vw - 375px)/(768 - 375));
+  }
+}
+
+
+@media all and (max-width: 375px) {
+  .menu {
+    top: 17.06vw;
+
+    padding-left: 20px;
+  }
+}

@@ -1,0 +1,25 @@
+.main__record {
+    background-image: url('../../../images/cabinet.jpg');
+    
+    background-position: bottom left;
+
+    grid-area: record;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+
+@media all and (max-width: 1024px) {
+    .main__record {
+        background-size: cover;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .main__record {
+        background-position: center;
+    }
+}

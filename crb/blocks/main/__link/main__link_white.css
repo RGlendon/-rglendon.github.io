@@ -1,0 +1,28 @@
+.main__link_white {
+  position: absolute;
+  top: 404px;
+
+  background-color: var(--color-gray6);
+  color: var(--color-red);
+}
+
+
+
+@media all and (max-width: 1920px) {
+  .main__link_white {
+    top: calc(255px + (404 - 255)*(100vw - 1024px)/(1920 - 1024));
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .main__link_white {
+    top: 25.9vw;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .main__link_white {
+    top: auto;
+    bottom: 51px;
+  }
+}

@@ -1,0 +1,38 @@
+.pro__four {
+  overflow: hidden;
+
+  grid-area: four;
+  object-fit: fill;
+
+  background-color: var(--color-gray6);
+  color: var(--color-red);
+
+  padding-top: 120px;
+  padding-bottom: 80px;
+  padding-left: 15.5%;
+  padding-right: 6.77%;
+}
+
+@media all and (max-width: 1440px) {
+  .pro__four {
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .pro__four {
+    padding-left: 5.85%;
+    padding-right: 5.85%;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .pro__four {
+    padding-top: 12vw;
+    padding-left: 5.33vw;
+    padding-right: 5.33vw;
+    padding-bottom: 80px;
+  }
+}
+

@@ -1,0 +1,35 @@
+.cover__image {
+    background-image: url('../../../images/toBaikal.jpg');
+    background-position: center;
+    background-size: cover;
+
+    padding-bottom: 50.16%;
+
+    opacity: 0.6;
+    transition: opacity 1s ease;
+}
+
+
+@media all and (max-width: 1024px) {
+    .cover__image {
+        padding-bottom: 54.88%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .cover__image {
+        padding-bottom: 65.1%;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .cover__image {
+        padding-bottom: 72.53%;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .cover__image {
+        padding-bottom: 67.5%;
+    }
+}

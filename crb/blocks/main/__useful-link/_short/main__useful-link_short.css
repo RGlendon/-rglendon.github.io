@@ -1,0 +1,23 @@
+.main__useful-link_short {
+    width: 520px;
+}
+
+
+
+@media all and (max-width: 1920px) {
+    .main__useful-link_short {
+        font-size: calc(18rem + (20 - 18)*(100vw - 1024px)/(1920 - 1024));
+        line-height: calc(22rem + (27 - 22)*(100vw - 1024px)/(1920 - 1024));
+
+        width: calc(357px + (520 - 357)*(100vw - 1024px)/(1920 - 1024));
+    }
+}
+
+@media all and (max-width: 768px) {
+    .main__useful-link_short {
+        font-size: calc(12rem + (20 - 12)*(100vw - 375px)/(768 - 375));
+        line-height: calc(22rem + (27 - 22)*(100vw - 375px)/(768 - 375));
+
+        width: calc(290px + (528 - 290)*(100vw - 375px)/(768 - 375));
+    }
+}

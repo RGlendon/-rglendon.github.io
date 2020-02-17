@@ -1,0 +1,50 @@
+.main__useful-link {
+    display: block;
+
+    width: 528px;
+
+    margin-top: 36px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 20px;
+    line-height: 27px; */
+    font-size: 20rem;
+    line-height: 1.35;
+    /* or 135% */
+
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+
+    color: var(--color-red);
+}
+
+.main__useful-link:first-of-type {
+    margin-top: 0px;
+}
+
+
+@media all and (max-width: 1920px) {
+    .main__useful-link {
+        /* font-size: calc(18px + (20 - 18)*(100vw - 1024px)/(1920 - 1024));
+        line-height: calc(22px + (27 - 22)*(100vw - 1024px)/(1920 - 1024)); */
+        font-size: calc(18rem + (20 - 18)*(100vw - 1024px)/(1920 - 1024));
+        line-height: calc(22rem + (27 - 22)*(100vw - 1024px)/(1920 - 1024));
+
+        width: calc(360px + (528 - 360)*(100vw - 1024px)/(1920 - 1024));
+        margin-top: calc(20px + (36 - 20)*(100vw - 1024px)/(1920 - 1024));
+    }
+}
+
+@media all and (max-width: 768px) {
+    .main__useful-link {
+        /* font-size: calc(12px + (20 - 12)*(100vw - 375px)/(768 - 375));
+        line-height: calc(16px + (27 - 16)*(100vw - 375px)/(768 - 375)); */
+        font-size: calc(12rem + (20 - 12)*(100vw - 375px)/(768 - 375));
+        line-height: calc(16rem + (27 - 16)*(100vw - 375px)/(768 - 375));
+
+        width: calc(290px + (528 - 290)*(100vw - 375px)/(768 - 375));
+        margin-top: 25px;
+    }
+}

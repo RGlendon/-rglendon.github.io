@@ -1,0 +1,31 @@
+.form__fieldset {
+  margin-top: 180px;
+  padding: 0px;
+
+  border: 0px;
+}
+
+
+@media all and (max-width: 1920px) {
+  .form__fieldset {
+    margin-top: 9.37vw;
+  }
+}
+
+@media all and (max-width: 1440px) {
+  .form__fieldset {
+    margin-top: 6vw;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .form__fieldset {
+    margin-top: 40px;
+  }
+}
+
+@media all and (max-width: 375px) {
+  .form__fieldset {
+    margin-top: 30px;
+  }
+}

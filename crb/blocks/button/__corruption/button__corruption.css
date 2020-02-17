@@ -1,0 +1,12 @@
+.button__corruption {
+    position: absolute;
+    bottom: 0px;
+    left: -20%;
+}
+
+
+@media all and (max-width: 1280px) {
+    .button__corruption {
+        display: none;
+    }
+}

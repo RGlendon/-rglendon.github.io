@@ -1,0 +1,30 @@
+.video__container {
+    margin: 72px auto 0px;
+    width: calc(100vw - 48px*2);
+    max-width: 1184px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+@media all and (max-width: 1024px) {
+    .video__container {
+        width: calc(720px + (928 - 720)*(100vw - 768px)/(1024 - 768));
+    }
+}
+
+@media all and (max-width: 767px) {
+    .video__container {
+        width: calc(343px + (720 - 343)*(100vw - 375px)/(768 - 375));
+
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .video__container {
+        width: calc(100vw - 2*16px);
+    }
+}

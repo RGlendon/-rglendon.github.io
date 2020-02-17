@@ -1,0 +1,17 @@
+.main__news {
+    grid-area: news;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 63% 37%;
+
+    background-color: var(--color-red);
+
+    position: relative;
+}
+
+
+@media all and (max-width: 768px) {
+    .main__news {
+        grid-template-rows: 1fr;
+    }
+}

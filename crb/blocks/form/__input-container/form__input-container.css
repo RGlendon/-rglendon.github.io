@@ -1,0 +1,13 @@
+.form__input-container {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px 30px; 
+}
+
+
+@media all and (max-width: 768px) {
+  .form__input-container {
+    grid-template-columns: 1fr;
+  }
+}

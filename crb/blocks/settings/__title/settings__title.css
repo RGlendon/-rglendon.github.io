@@ -1,0 +1,9 @@
+.settings__title {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 600;
+  /* font-style: normal; */
+  /* align-items: center; */
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+}

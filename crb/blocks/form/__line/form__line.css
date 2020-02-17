@@ -1,0 +1,21 @@
+.form__line {
+  height: 2px;
+  background-color: var(--color-red);
+
+  margin-top: 116px;
+}
+
+.form__line:first-of-type {
+  margin-top: 55px;
+}
+
+.form__line:last-of-type {
+  margin-bottom: 80px;
+}
+
+
+@media all and (max-width: 768px) {
+  .form__line {
+    display: none;
+  }
+}

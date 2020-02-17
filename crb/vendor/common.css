@@ -1,0 +1,36 @@
+/* 
+var(--color-red)
+var(--color-gray6)
+var(--color-gray5)
+var(--color-gray3)
+var(--color-gray1)
+var(--color-dark)
+var(--color-dark2)
+ */
+
+:root {
+  --color-red: #F36956;
+  --color-gray6: #F2F2F2;
+  --color-gray5: #E0E0E0;
+  --color-gray3: #828282;
+  --color-dark: #535353;
+  --color-dark2: #474849;
+
+  --color-gray1: #333333;
+
+  font-size: 1px;
+}
+
+:root.contrast {
+  --color-red: var(--color-gray1);
+  --color-dark: var(--color-gray1);
+  --color-dark2: var(--color-gray1);
+}
+
+:root.middle {
+  font-size: 1.1px;
+}
+
+:root.grand {
+  font-size: 1.25px;
+}

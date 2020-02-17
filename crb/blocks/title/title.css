@@ -1,0 +1,51 @@
+/* @import url('../../vendor/Inter/Inter.css'); */
+
+
+.title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  /* font-size: 55px;
+  line-height: 64px; */
+  font-size: 55rem;
+  line-height: 116.3%;
+  /* or 116% */
+
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+}
+
+
+@media all and (max-width: 1920px) {
+  .title {
+      /* font-size: calc(30px + (55 - 30)*(100vw - 1024px)/(1920 - 1024));
+      line-height: calc(35px + (64 - 35)*(100vw - 1024px)/(1920 - 1024)); */
+      font-size: calc(30rem + (55 - 30)*(100vw - 1024px)/(1920 - 1024));
+      line-height: calc(35rem + (64 - 35)*(100vw - 1024px)/(1920 - 1024));
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .title {
+      /* font-size: calc(24px + (30 - 24)*(100vw - 768px)/(1024 - 768));
+      line-height: calc(28px + (35 - 28)*(100vw - 768px)/(1024 - 768)); */
+      font-size: calc(24rem + (30 - 24)*(100vw - 768px)/(1024 - 768));
+      line-height: calc(28rem + (35 - 28)*(100vw - 768px)/(1024 - 768));
+  }
+}
+
+@media all and (max-width: 768px) {
+  .title {
+      /* font-size: 30px;
+      line-height: 35px; */
+      font-size: 30rem;
+      line-height: 35rem;
+  }
+}
+
+@media all and (max-width: 375px) {
+  .title {
+    /* line-height: 32px; */
+    line-height: 32rem;
+  }
+}

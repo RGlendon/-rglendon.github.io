@@ -1,0 +1,35 @@
+.header__hint {
+  width: 115px;
+  height: 99px;
+
+  padding-top: 32px;
+  padding-left: 32px;
+  padding-right: 90px;
+
+  
+  border-left: 1px solid var(--color-gray5);
+  border-bottom: 1px solid var(--color-gray5);
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+
+  letter-spacing: 0.015em;
+
+  z-index: 1;
+
+  position: absolute;
+  top: 0px;
+  right: 30px;
+
+  transition: transform 0.3s ease;
+  
+}
+
+@media all and (max-width: 1279px) {
+    .header__hint {
+      display: none;
+    }
+}

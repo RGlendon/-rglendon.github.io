@@ -1,0 +1,32 @@
+.comments__item {
+    width: 32.26%;
+}
+
+
+@media all and (max-width: 1024px) {
+    .comments__item {
+        width: 31.89%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .comments__item {
+        width: 57.87%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-top: 48px;
+    }
+
+    .comments__item:first-of-type {
+        margin-top: 0px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .comments__item {
+        width: 100%;
+    }
+}

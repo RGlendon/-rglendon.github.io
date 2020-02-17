@@ -1,0 +1,13 @@
+.pro__wrapper {
+  margin: 0px auto;
+  width: 77%;
+}
+
+
+
+
+@media all and (max-width: 1920px) {
+  .pro__wrapper {
+      width: 77%;
+  }
+}

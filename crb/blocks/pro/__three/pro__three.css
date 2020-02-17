@@ -1,0 +1,34 @@
+.pro__three {
+  grid-area: three;
+  object-fit: fill;
+
+  background-color: var(--color-red);
+
+  padding-top: 120px;
+  padding-bottom: 80px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+
+
+@media all and (max-width: 1024px) {
+  .pro__three {
+    padding-top: 85px;
+
+    display: flex;
+
+    justify-content: space-between;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .pro__three {
+    display: block;
+
+    padding-top: 12vw;
+    padding-right: 5.33%;
+    padding-bottom: 80px;
+    padding-left: 5.33%;
+  }
+}

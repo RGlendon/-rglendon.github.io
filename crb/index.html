@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="ЦРБ, лечение, выздоровление">
+    <meta name="description" content="Эффективное ление и тому подобное">
+    <meta name="author" content="Михаил Кузнецов, RGlen">
+    <link rel="stylesheet" href="./vendor/common.css"> <!--цвет и шрифт-->
+    <link rel="stylesheet" href="./vendor/normalize.css">
+    <link rel="stylesheet" href="./pages/index.css">
+    <script>
+        if (localStorage.getItem('contrast')) {
+          document.documentElement.classList.add('contrast');
+        }
+        if (localStorage.getItem('font') == 1) {
+          document.documentElement.classList.add('middle');
+        } else if (localStorage.getItem('font') == 2) {
+          document.documentElement.classList.add('grand');
+        }
+      </script>
+    <title>main</title>
+</head>
+<body>
+  <div class="page">
+
+    <header class="header">
+        <div class="header__left-side">
+            <div class="header__nav" tabindex="1"></div>
+            <h1 class="logo logo_place_header"><a href="index.html" class="header__link link">Хвойнинская ЦРБ</a></h1>
+        </div>
+        <div class="header__right-side"> 
+                <div class="header__glasses" tabindex="2"></div>
+                <p class="header__hint">Версия для слабовидящих</p>
+        </div>
+        <form name="header" class="header__form">
+            <div class="header__wrapper">
+                <input name="search" class="header__input-search" type="text" tabindex="4">
+            </div>
+            <button class="header__btn-search" tabindex="3"></button>
+        </form>
+    </header>
+
+    <section class="settings">
+        <div class="settings__column">
+            <p class="settings__title settings__title_font">размер шрифта</p>
+            <button class="settings__font settings__font_standard">А</button>
+            <button class="settings__font settings__font_middle">А</button>
+            <button class="settings__font settings__font_grand">А</button>
+        </div>
+        <div class="settings__column">
+            <p class="settings__title settings__title_color">цвет сайта</p>
+            <button class="settings__color settings__color_light"></button>
+            <button class="settings__color settings__color_dark"></button>
+        </div>
+        <div class="settings__column">
+            <p class="settings__title settings__title_image">изображения</p>
+            <div class="button-power">
+                <input type="checkbox" class="button-power__checkbox">
+                <div class="button-power__knob"></div>
+                <div class="button-power__layer"></div>
+            </div>
+        </div>
+        <button class="settings__reset">Обычная версия сайта</button>
+    </section>
+
+    <nav class="menu">
+        <ul class="menu__ul menu__ul_outer">
+            <li class="menu__target"><a href="#" class="menu__link menu__link_outer">Пациентам</a>
+                <ul class="menu__ul menu__ul_inner">
+                    <li><a href="#" class="menu__link">Расписание</a></li>
+                    <li><a href="#" class="menu__link">Основные виды деятельности</a></li>
+                    <li><a href="prophylaxy.html" class="menu__link">Профилактика</a></li>
+                    <li><a href="#" class="menu__link">Запись на прием</a></li>
+                    <li><a href="#" class="menu__link">ГОСУСЛУГИ запись на прием</a></li>
+                    <li><a href="write.html" class="menu__link">Написать нам</a></li>
+                    <li><a href="#" class="menu__link">Прочая информация</a></li>
+                </ul>
+            </li>
+            <li><a href="#" class="menu__link menu__link_outer">Платные услуги</a></li>
+            <li><a href="#" class="menu__link menu__link_outer">О нас</a></li>
+            <li class="menu__target"><a href="#" class="menu__link menu__link_outer">Противокорупционные действия</a>
+                <ul class="menu__ul menu__ul_inner">
+                    <li><a href="#" class="menu__link">Комиссия по противодействию коррупции</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="main">
+
+        <div class="main__record">
+            <a href="#" target="_blank" class="main__link main__link_red">Записаться на прием</a>
+        </div>
+
+        <div class="main__news">
+            <div class="main__wrapper main__wrapper_news">
+                <h2 class="main__title">Диспансеризация — это бесплатный медосмотр</h2>
+                <p class="main__subtitle">Диспансеризация проводится:</p>
+                <p class="main__subtitle">1 раз в три года в возрасте от 18 до 39 лет включительно;</p>
+                <p class="main__subtitle">ежегодно в возрасте 40 лет и старше</p>
+                <a href="#" target="_blank" class="main__link main__link_white">Узнать больше</a>
+            </div>
+            <div class="main__background"></div>
+        </div>
+
+        <div class="main__corruption">
+            <div class="main__wrapper main__wrapper_corruption">
+                <h2 class="main__title">Противодействие коррупции</h2>
+                <a href="#" class="main__title main__title_underline">Памятка</a>
+                <p class="main__text">Что нужно знать о коррупции</p>
+                <div class="button__corruption button_up_white"></div>
+            </div>
+        </div>
+
+        <div class="main__useful">
+            <div class="main__wrapper main__wrapper_useful">
+                <h2 class="main__title">Полезные ссылки</h2>
+                <div class="main__useful-links">
+                    <a href="#" target="_blank" class="main__useful-link">Министерство здравоохранения Российской федерации</a>
+                    <a href="#" target="_blank" class="main__useful-link">Департамент здравоохранения Новгородской области</a>
+                    <a href="#" target="_blank" class="main__useful-link">Администрация Хвойнинского муниципального района</a>
+                    <a href="#" target="_blank" class="main__useful-link">Федеральная служба по надзору в сфере защиты прав потребителей 
+                        и благополучия человека</a>
+                    <a href="#" target="_blank" class="main__useful-link main__useful-link_short">Территориальный фонд обязательного медицинского страхования
+                        Новгородской области (ТФОМС НО)</a>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <a class="back" title="Наверх">&uarr;</a>
+
+
+    <footer class="footer">
+        <h1 class="logo logo_place_footer">Хвойнинская ЦРБ</h1>
+        <ul class="footer__ul footer__ul_outer">
+            <li class="footer__li footer__li_outer"><a href="#" class="footer__link footer__link_outer">Контакты</a></li>
+            <li class="footer__li footer__li_outer ">
+              <input type="checkbox" checked class="footer__input">
+              <a href="#" class="footer__link footer__link_outer">Пациентам</a>
+              <div class="footer__target"></div> 
+              <ul class="footer__ul footer__ul_inner">
+                <li class="footer__li footer__li_inner"><a href="#" class="footer__link footer__link_inner">Расписание</a></li>
+                <li class="footer__li footer__li_inner"><a href="#" class="footer__link footer__link_inner">Основные виды деятельности</a></li>
+                <li class="footer__li footer__li_inner"><a href="prophylaxy.html" class="footer__link footer__link_inner">Профилактика</a></li>
+                <li class="footer__li footer__li_inner"><a href="#" class="footer__link footer__link_inner">Запись на прием</a></li>
+                <li class="footer__li footer__li_inner"><a href="#" class="footer__link footer__link_inner">ГОСУСЛУГИ запись на прием</a></li>
+                <li class="footer__li footer__li_inner"><a href="write.html" class="footer__link footer__link_inner">Написать нам</a></li>
+                <li class="footer__li footer__li_inner"><a href="#" class="footer__link footer__link_inner">Прочая информация</a></li>
+              </ul>
+            </li>
+            <li class="footer__li footer__li_outer"><a href="#" class="footer__link footer__link_outer">Платные услуги</a></li>
+            <li class="footer__li footer__li_outer"><a href="#" class="footer__link footer__link_outer">О нас</a></li>
+            <li class="footer__li footer__li_outer">
+              <input type="checkbox" checked class="footer__input">
+              <a href="#" class="footer__link footer__link_outer">Противодействие коррупции</a>
+              <div class="footer__target"></div>
+              <ul class="footer__ul footer__ul_inner">
+                <li class="footer__li footer__li_inner"><a href="#" class="footer__link footer__link_inner">Комиссия по противодействию коррупции</a></li>
+              </ul>
+            </li>
+          </ul>
+    </footer>
+
+    <script src="js/common.js"></script>
+    <script src="js/index.js"></script>
+  </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+.header__btn-search {
+    width: 132px;
+    height: 132px;
+
+    border: 0px;
+    cursor: pointer;
+
+    background-color: var(--color-gray5);
+    background-image: url('../../../images/search.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* outline: none; */
+
+    z-index: 2;
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+
+@media all and (min-width: 376px) and (max-width: 1024px) {
+    .header__btn-search {
+        width: 12.84vw;
+        height: 12.84vw;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .header__btn-search {
+        width: 17.06vw;
+        height: 17.06vw;
+    }
+}

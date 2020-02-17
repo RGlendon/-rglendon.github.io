@@ -1,0 +1,51 @@
+.main__link {
+  display: block;
+
+  width: 60.41%;
+
+  font-family: 'Inter';
+  font-weight: 500;
+  /* font-size: 20px; */
+  font-size: 20rem;
+  line-height: 4.4;
+  /* line-height: 88px; */
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  cursor: pointer;
+}
+
+
+
+@media all and (max-width: 1024px) {
+  .main__link {
+      /* font-size: calc(15px + (18 - 15)*(100vw - 768px)/(1024 - 768)); */
+      font-size: calc(15rem + (18 - 15)*(100vw - 768px)/(1024 - 768));
+      width: 56.64%;
+
+      line-height: calc(61rem + (88 - 61)*(100vw - 768px)/(1024 - 375));
+      /* line-height: calc(61px + (88 - 61)*(100vw - 375px)/(1024 - 375)); */
+  }
+}
+
+@media all and (max-width: 768px) {
+  .main__link {
+    /* font-size: 18px; */
+    font-size: 18rem;
+    width: 80%;
+
+    line-height: 3.388;
+    /* line-height: 61px; */
+  }
+}
+
+  
+@media all and (max-width: 375px) {
+  .main__link {
+    /* font-size: 14px; */
+    font-size: 14rem;
+    width: calc(100% - 2*20px);
+  }
+}

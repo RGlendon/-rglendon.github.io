@@ -1,0 +1,4 @@
+.main__title_underline {
+    text-decoration: underline;
+    color: var(--color-gray6);
+}

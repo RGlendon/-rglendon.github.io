@@ -1,0 +1,36 @@
+.settings__reset {
+  width: 332px;
+  height: inherit;
+  background-color: #F2F2F2;
+
+  padding: 0px 85px;
+
+  border: 0px;
+  border-left: 1px solid #333333;
+  border-right: 1px solid #333333;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  /* or 110% */
+
+  text-align: center;
+  letter-spacing: 0.015em;
+
+  position: absolute;
+  top: 0px;
+  right: 215px;
+
+  cursor: pointer;
+}
+
+
+@media all and (max-width: 1920px) {
+  .settings__reset {
+    width: 17.29%;
+    padding: 0px 4.16%;
+    
+    right: 11.19vw;
+  }
+}

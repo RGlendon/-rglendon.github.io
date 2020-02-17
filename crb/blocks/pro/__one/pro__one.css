@@ -1,0 +1,24 @@
+.pro__one {
+  background-image: url('../../../images/medicine.jpg');
+  
+  object-fit: fill;
+  background-size: cover;
+  background-position: bottom left;
+
+  grid-area: one;
+}
+
+
+@media all and (max-width: 1024px) {
+  .pro__one {
+      background-size: cover;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .pro__one {
+      background-position: center;
+
+      padding-bottom: 65.86vw;
+  }
+}

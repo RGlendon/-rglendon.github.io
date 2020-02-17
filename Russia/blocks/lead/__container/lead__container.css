@@ -1,0 +1,44 @@
+.lead__container {
+    background-image: url('../../../images/kalegin-michail-179870-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    
+    width: calc(100vw - 2*48px);
+    max-width: 984px;
+    /* не очень понятно, почему такие размеры в макете: 1280 - высота картинки 554px, 1024 - высота картинки 554px, при этом
+    ширина уменьшилась с 984px до 928px и визуально тоже ничего не поменялось. Масштабировал картинку пропорционально */
+    height: 554px;
+    /* padding-bottom: 60%; */
+    max-height: 554px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 78px auto 0px;
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+    .lead__container {
+        width: calc(100vw - 2*(0px + (100vw - 768px)/(1024 - 768)*(48 - 0)));
+        height: calc(420px + (100vw - 768px)/(1023 - 768)*(544 - 420));
+    }
+}
+
+@media all and (min-width: 376px) and (max-width: 767px) {
+    .lead__container {
+        width: 100%;
+        height: calc(211px + (100vw - 375px)/(768 - 375)*(420 - 211));
+
+        margin-top: calc(32px + (100vw - 375px)/(768 - 375)*(78 - 32));
+    }
+}
+
+@media all and (max-width: 375px) {
+    .lead__container {
+        width: 100%;
+        height: 211px;
+
+        margin-top: 32px;
+    }
+}

@@ -1,0 +1,16 @@
+.logo {
+    width: 177px; 
+}
+
+
+@media all and (min-width: 376px) and (max-width: 767px) {
+    .logo {
+        width: calc(142px + (100vw - 375px)/(768 - 375)*(177 - 142));
+    }
+}
+
+@media all and (max-width: 375px) {
+    .logo {
+        width: 142px;
+    }
+}

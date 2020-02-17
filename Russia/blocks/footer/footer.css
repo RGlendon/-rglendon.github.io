@@ -1,0 +1,43 @@
+@import url('../../vendor/Inter-3.11/Inter\ \(Web\)/Inter.css');
+
+@import url('__links/footer__links.css');
+@import url('__link/footer__link.css');
+@import url('__copyright/footer__copyright.css');
+
+
+.footer {
+    width: calc(100% - 48px*2);
+    max-width: 1184px;
+
+    margin: 160px auto 0px;
+    padding-bottom: 48px;
+
+    font-family: 'Inter';
+
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+@media all and (max-width: 1024px) {
+    .footer {
+        margin-top: calc(102px + (100vw - 768px)/(1024 - 768)*(160 - 102));
+        width: calc(100vw - 2*(24px + (100vw - 768px)/(1024 - 768)*(48 - 24)));
+    }
+}
+
+@media all and (max-width: 767px) {
+    .footer {
+        margin-top: calc(64px + (100vw - 375px)/(768 - 375)*(102 - 64));
+        width: 250px;
+
+        margin-left: 16px;
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .footer {
+        margin-top: 64px;
+    }
+}

@@ -1,0 +1,43 @@
+@import url('../../vendor/Inter-3.11/Inter\ \(Web\)/Inter.css');
+
+@import url('../logo/logo.css');
+@import url('__langs/header__langs.css');
+@import url('__lang/header__lang.css');
+@import url('__lang/_selected/header__lang_selected.css');
+
+.header {
+    width: calc(100vw - 48px*2);
+    max-width: 1184px;
+    height: 52px;
+    
+    font-family: 'Inter';
+    font-size: 24px;
+    line-height: 23px;
+
+    margin: 0px auto;
+    padding-top: 30px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+@media all and (max-width: 1024px) {
+    .header {
+        width: 90.62%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .header {
+        width: 93.75%;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .header {
+        width: calc(100vw - 2*16px);
+
+        font-size: 18px;
+        line-height: 17px;
+    }
+}

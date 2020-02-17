@@ -1,0 +1,51 @@
+/* @import url('../../vendor/Inter/Inter.css'); */
+
+@import url('__one/pro__one.css');
+@import url('__two/pro__two.css');
+@import url('__wrapper/pro__wrapper.css');
+@import url('__wrapper/pro__wrapper_two.css');
+@import url('__three/pro__three.css');
+@import url('__four/pro__four.css');
+@import url('__column/pro__column.css');
+
+
+
+
+
+.pro {
+  display: grid;
+  grid-template-areas: 
+  "one two"
+  "three four";
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: 948px 1014px; */
+  
+  font-family: 'Inter';
+
+  /* overflow: hidden; */
+  
+}
+
+
+
+
+
+@media all and (max-width: 1440px) {
+  .pro {
+    grid-template-areas: 
+    "one two"
+    "four four"
+    "three three";
+  }
+}
+
+@media all and (max-width: 768px) {
+  .pro {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "one"
+    "two"
+    "four"
+    "three";
+  }
+}

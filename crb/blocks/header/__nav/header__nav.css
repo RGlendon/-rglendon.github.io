@@ -1,0 +1,31 @@
+.header__nav {
+    height: 132px;
+    width: 132px;
+
+    background-image: url('../../../images/menuDark.svg');
+    background-color: var(--color-dark2);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    cursor: pointer;
+}
+
+.header__nav_white {
+    background-image: url('../../../images/menuWhite.svg');
+    background-color: var(--color-red);
+}
+
+
+@media all and (min-width: 376px) and (max-width: 1024px) {
+    .header__nav {
+        width: 12.84vw;
+        height: 12.84vw;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .header__nav {
+        width: 17.06vw;
+        height: 17.06vw;
+    }
+}

@@ -1,0 +1,29 @@
+.main__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 34px; */
+    font-size: 34rem;
+    line-height: 1.06;
+    /* line-height: 36px; */
+    /* or 106% */
+
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+}
+
+
+
+@media all and (max-width: 1920px) {
+    .main__text {
+        /* font-size: calc(30px + (34 - 30)*(100vw - 1024px)/(1920 - 1024)); */
+        font-size: calc(30rem + (34 - 30)*(100vw - 1024px)/(1920 - 1024));
+    }
+}
+
+@media all and (max-width: 768px) {
+    .main__text {
+        /* font-size: calc(12px + (30 - 12)*(100vw - 375px)/(768 - 375)); */
+        font-size: calc(12rem + (30 - 12)*(100vw - 375px)/(768 - 375));
+    }
+}

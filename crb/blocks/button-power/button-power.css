@@ -1,0 +1,88 @@
+.button-power:focus {
+    outline: none;
+}
+
+
+.button-power {
+  user-select: none;
+  -webkit-tap-highlight-color:transparent;
+
+  box-sizing: border-box;
+  border: 1px solid #333333;
+
+  position: relative;
+  width: 175px;
+  height: 40px;
+  overflow: hidden;
+}
+
+
+
+.button-power__knob, .button-power__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+
+.button-power__checkbox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.button-power__knob {
+    z-index: 2;
+}
+
+.button-power__layer {
+    width: 100%;
+    background-color: #333333;
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+
+
+.button-power__knob:before {
+  content: 'ВЫКЛ';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+
+  width: 50%;
+  height: inherit;
+
+  color: black;
+  font-weight: bold;
+  text-align: center;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 38px;
+
+  background-color: #F2F2F2;;
+  transition: all .3s cubic-bezier(0.18, 0.89, 0.35, 1.15);
+}
+
+
+.button-power__checkbox:checked + .button-power__knob:before {
+    content: 'ВКЛ';
+    right: 50%;
+    background-color: #F36956;
+}
+
+.button-power__checkbox:checked ~ .button-power__layer
+{
+    background-color: #fcebeb;
+}
+
+.button-power__knob {
+    transition: all 0.3s ease ;
+}

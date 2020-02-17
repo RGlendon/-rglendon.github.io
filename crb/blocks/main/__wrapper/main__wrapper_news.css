@@ -1,0 +1,19 @@
+.main__wrapper_news {
+  padding-top: 64px;
+}
+
+
+
+
+@media all and (max-width: 1024px) {
+  .main__wrapper_news{
+      padding-top: 50px;
+  }
+}
+
+
+@media all and (max-width: 375px) {
+  .main__wrapper_news {
+      padding-top: 46px;
+  }
+}

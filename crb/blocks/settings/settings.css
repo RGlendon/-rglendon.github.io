@@ -1,0 +1,51 @@
+/* @import url('../../vendor/Inter/Inter.css'); */
+
+@import url('__column/settings__column.css');
+@import url('__title/settings__title.css');
+@import url('__title/_style/settings__title_font.css');
+@import url('__title/_style/settings__title_color.css');
+@import url('__title/_style/settings__title_image.css');
+@import url('__font/settings__font.css');
+@import url('__font/settings__font_small.css');
+@import url('__font/settings__font_middle.css');
+@import url('__font/settings__font_grand.css');
+@import url('__color/settings__color.css');
+@import url('__color/settings__color_light.css');
+@import url('__color/settings__color_dark.css');
+@import url('__reset/settings__reset.css');
+
+
+.settings {
+  padding-left: 215px;
+  /* padding-right: 215px; */
+  padding-right: 660px;
+
+  align-items: center;
+
+  height: 132px;
+
+  background-color: #F2F2F2;
+  color: #333333;
+
+  font-family: 'Inter';
+  display: none;
+  /* display: flex; */
+  justify-content: space-between;
+}
+
+
+.settings_appear {
+  display: flex;
+  flex-wrap: wrap;
+
+  position: relative;
+}
+
+
+
+@media all and (max-width: 1920px) {
+  .settings {
+    padding-left: 11.19vw;
+    padding-right: 34.37vw;
+  }
+}

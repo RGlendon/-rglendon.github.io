@@ -1,0 +1,29 @@
+@import url('../../vendor/Inter-3.11/Inter\ \(Web\)/Inter.css');
+
+@import url('__image/cover__image.css');
+@import url('__title/cover__title.css');
+@import url('__subtitle/cover__subtitle.css');
+
+
+.cover {
+    max-width: 1184px;
+    width: calc(1024px + (100% - 1024px)/(1280 - 1024)*(1184 - 1024));
+
+    margin: 102px auto 0px;
+
+    font-family: 'Inter';
+
+    position: relative;
+}
+
+.cover:hover .cover__image {
+    opacity: .9;
+}
+
+
+
+@media all and (max-width: 1024px) {
+    .cover {
+        width: 100%;
+    }
+}

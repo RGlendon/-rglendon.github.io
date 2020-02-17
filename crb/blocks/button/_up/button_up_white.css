@@ -1,0 +1,6 @@
+.button_up_white {
+    width: 40px;
+    height: 40px;
+    
+    background-image: url('../../../images/buttons/button_up_white.svg');
+}

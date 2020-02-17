@@ -1,0 +1,24 @@
+.pro__column:nth-of-type(2) {
+  margin-top: 120px;
+}
+
+
+@media all and (max-width: 1024px) {
+  .pro__column {
+    width: 31.5vw;
+  }
+
+  .pro__column:nth-of-type(2) {
+    margin-top: 0px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .pro__column {
+    width: 100%;
+  }
+
+  .pro__column:nth-of-type(2) {
+    margin-top: 15%;
+  }
+}

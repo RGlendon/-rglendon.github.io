@@ -1,0 +1,33 @@
+.header__glasses {
+    min-width: 132px;
+    height: 132px;
+    background-image: url('../../../images/glasses.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+
+    box-sizing: border-box;
+    border-bottom: 1px solid var(--color-gray5);
+
+    z-index: 2;
+
+    background-color: var(--color-red);
+
+    cursor: pointer;
+
+    margin-right: 132px;
+
+}
+
+
+.header__glasses:hover ~ .header__hint {
+    transform: translate(-233px);
+} 
+
+
+@media all and (max-width: 1279px) {
+    .header__glasses {
+        display: none;
+    }
+}
+
+

@@ -1,0 +1,24 @@
+.main__wrapper {
+    margin: 0px auto;
+}
+
+
+
+
+@media all and (min-width: 768px) {
+    .main__wrapper {
+        width: 68.82%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .main__wrapper {
+        width: 80%;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .main__wrapper {
+        width: calc(100% - 20px*2);
+    }
+}

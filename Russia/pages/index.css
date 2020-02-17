@@ -1,0 +1,59 @@
+@import url('../blocks/header/header.css');
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/photo-grid/photo-grid.css');
+@import url('../blocks/place/places.css');
+@import url('../blocks/content-title/content-title.css');
+@import url('../blocks/conten-subtitle/content-subtitle.css');
+@import url('../blocks/video/video.css');
+@import url('../blocks/comments/comments.css');
+@import url('../blocks/cover/cover.css');
+@import url('../blocks/footer/footer.css');
+
+
+
+
+
+
+
+/* header, nav, main, footer, section, article {
+    border: 1px solid blue;
+}
+
+div, p, ul, li, h1, h2, h3, h4, img, a {
+    border: 1px solid red;
+} */
+
+
+body {
+    background-color: #2A2C2F;
+}
+
+.page {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+
+    text-rendering: optimizeLegibility;
+
+
+
+    background-color: #2A2C2F;
+    color: white;
+
+    max-width: 1440px;
+    margin: 0px auto;
+
+    overflow: hidden;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.link {
+    color: white;
+}

@@ -1,0 +1,10 @@
+.settings__font_standard {
+  width: 28px;
+  height: 28px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  /* or 110% */
+}

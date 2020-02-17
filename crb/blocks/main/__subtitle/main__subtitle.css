@@ -1,0 +1,44 @@
+.main__subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    /* font-size: 20px; */
+    font-size: 20rem;
+    line-height: 1.1;
+    /* line-height: 22px; */
+    /* or 110% */
+
+    letter-spacing: 0.015em;
+}
+
+.main__subtitle:first-of-type {
+    margin-top: 30px;
+}
+
+
+
+@media all and (max-width: 1920px) {
+    .main__subtitle {
+        /* font-size: calc(12px + (20 - 12)*(100vw - 1024px)/(1920 - 1024)); */
+        font-size: calc(12rem + (20 - 12)*(100vw - 1024px)/(1920 - 1024));
+        line-height: calc(14rem + (22 - 14)*(100vw - 1024px)/(1920 - 1024));
+        /* line-height: calc(14px + (22 - 14)*(100vw - 1024px)/(1920 - 1024)); */
+    }
+
+    .main__subtitle:first-of-type {
+        margin-top: calc(15px + (30 - 15)*(100vw - 1024px)/(1920 - 1024));
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .main__subtitle {
+        /* font-size: 12px; */
+        font-size: 12rem;
+        line-height: 14rem;
+        /* line-height: 14px; */
+    }
+
+    .main__subtitle:first-of-type {
+        margin-top: 15px;
+    }
+}

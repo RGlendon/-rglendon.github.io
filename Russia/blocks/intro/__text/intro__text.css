@@ -1,0 +1,20 @@
+.intro__text {
+    margin-top: 24px;
+    padding-left: 0px;
+
+    list-style-type: none;
+}
+
+
+
+@media all and (max-width: 767px) {
+    .intro__text {
+        margin-top: calc(32px + (100vw - 375px)/(768 - 375)*(24 - 32));
+    }
+}
+
+@media all and (max-width: 375px) {
+    .intro__text {
+        margin-top: 32px;
+    }
+}

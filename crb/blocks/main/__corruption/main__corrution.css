@@ -1,0 +1,6 @@
+.main__corruption {
+    grid-area: corruption;
+    background-color:  var(--color-red);
+
+    position: relative;
+}

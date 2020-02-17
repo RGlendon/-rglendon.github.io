@@ -1,0 +1,7 @@
+.header__lang {
+    height: fit-content;
+}
+
+.header__lang:first-child {
+    margin-right: 18px;
+}

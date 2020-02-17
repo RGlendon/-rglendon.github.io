@@ -1,0 +1,26 @@
+.header__left-side {
+    width: 50%;
+    background-color: var(--color-dark);
+
+    display: flex;
+    align-items: center;
+}
+
+
+.header__left-side_orange {
+    background-color: var(--color-red);
+  }
+
+
+@media all and (max-width: 1279px) {
+    .header__left-side {
+        /* width: calc(660px + (928 - 660)*(100vw - 768px)/(1024 - 768)); */
+        width: calc(100% - 132px + (-1024/2)*(100vw - 1024px)/(1280 - 1024));
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .header__left-side {
+        width: 100%;
+    }
+}

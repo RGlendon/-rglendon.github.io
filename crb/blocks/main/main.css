@@ -1,0 +1,81 @@
+/* @import url('../../vendor/Inter/Inter.css'); */
+
+@import url('__link/main__link.css');
+@import url('__link/main__link_red.css');
+@import url('__link/main__link_white.css');
+@import url('__record/main__record.css');
+@import url('__news/main__news.css');
+@import url('__wrapper/main__wrapper.css');
+@import url('__wrapper/main__wrapper_news.css');
+@import url('__wrapper/main__wrapper_corruption.css');
+@import url('__wrapper/main__wrapper_useful.css');
+@import url('__title/main__title.css');
+@import url('__title/_underline/main__title_underline.css');
+@import url('__subtitle/main__subtitle.css');
+@import url('__background/main__background.css');
+@import url('__corruption/main__corrution.css');
+@import url('__text/main__text.css');
+@import url('__useful/main__useful.css');
+@import url('__useful-link/main__useful-link.css');
+@import url('__useful-link/_short/main__useful-link_short.css');
+
+
+
+
+.main {
+    display: grid;
+    grid-template-areas: 
+    "record news"
+    "corruption useful";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 948px 1014px;
+
+
+    /* overflow: hidden; */
+    
+}
+
+
+
+@media all and (max-width: 1920px) {
+    .main {
+        grid-template-rows: 49.37vw 52.82vw;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .main {
+    grid-template-rows: 65vw 60vw;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .main {
+    grid-template-rows: 59.76vw 65vw;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .main {
+        grid-template-areas: 
+    "record"
+    "news"
+    "useful"
+    "corruption";
+    grid-template-columns: 1fr;
+    grid-template-rows: 94vw calc(392px + (384 - 392)*(100vw - 375px)/(768 - 375)) calc(582px + (725 - 582)*(100vw - 375px)/(768 - 375)) calc(582px + (725 - 582)*(100vw - 375px)/(768 - 375));
+    }
+}
+
+
+@media all and (max-width: 375px) {
+    .main {
+        grid-template-areas: 
+    "record"
+    "news"
+    "useful"
+    "corruption";
+    grid-template-columns: 1fr;
+    grid-template-rows: 94vw 104.5vw 582px 582px;
+    }
+}

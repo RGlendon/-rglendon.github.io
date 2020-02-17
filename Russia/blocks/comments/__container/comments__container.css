@@ -1,0 +1,28 @@
+.comments__container {
+    margin: 72px auto 0px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+@media all and (max-width: 768px) {
+    .comments__container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .comments__container {
+        margin-top: 48px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .comments__container {
+        margin-top: 40px;
+    }
+}

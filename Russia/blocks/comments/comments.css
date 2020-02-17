@@ -1,0 +1,40 @@
+@import url('../../vendor/Inter-3.11/Inter\ \(Web\)/Inter.css');
+
+@import url('__container/comments__container.css');
+@import url('__item/comments__item.css');
+@import url('__quote/comments__quote.css');
+@import url('__author/comments__author.css');
+@import url('__image/comments__image.css');
+
+
+
+.comments {
+    max-width: 1184px;
+    width: calc(100vw - 48px*2);
+
+    margin: 102px auto 0px;
+
+    font-family: 'Inter';
+}
+
+
+
+
+
+@media all and (max-width: 1024px) {
+    .comments {
+        width: calc(660px + (928 - 660)*(100vw - 768px)/(1024 - 768));
+    }
+}
+
+@media all and (max-width: 768px) {
+    .comments {
+        width: calc(343px + (660 - 343)*(100vw - 375px)/(768 - 375));
+    }
+}
+
+@media all and (max-width: 375px) {
+    .comments {
+        width: calc(100vw - 2*16px);
+    }
+}

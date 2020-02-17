@@ -1,0 +1,17 @@
+.title_place_two {
+  width: 535px;
+  word-wrap: break-word;
+}
+
+
+@media all and (max-width: 1920px) {
+  .title_place_two {
+    width: 26.5vw;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .title_place_two {
+    width: 89.34vw;
+  }
+}

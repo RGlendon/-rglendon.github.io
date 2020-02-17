@@ -1,0 +1,115 @@
+@import url('../../vendor/Inter-3.11/Inter\ \(Web\)/Inter.css');
+
+
+@import url('__place/places__place.css');
+@import url('__title/place__title.css');
+@import url('__website/place__website.css');
+@import url('__url-heading/place__url-heading.css');
+@import url('__url/place__url.css');
+@import url('__image/place__image.css');
+@import url('__paragraphs/place__paragraphs.css');
+
+
+
+
+.places {
+    margin-top: 92px;
+}
+
+
+
+
+
+
+@media all and (max-width: 1280px) {
+    .places {
+        margin-top: calc(102px + (100vw - 1024px)/(1280 - 1024)*(92 - 102));
+    }
+
+    .place {
+        grid-template-columns: calc(440px + (100vw - 1024px)/(1280 - 1024)*(460 - 440)) calc(456px + (100vw - 1024px)/(1280 - 1024)*(484 - 456));
+        grid-row-gap: calc(40px + (100vw - 1024px)/(1280 - 1024)*(60 - 40));
+        grid-column-gap: calc(32px + (100vw - 1024px)/(1280 - 1024)*(40 - 32));
+    }
+
+    .place__paragraphs .place__paragraph:last-child {
+        margin-top: calc(24px + (100vw - 1024px)/(1280 - 1024)*(36 - 24));
+    }
+}
+
+
+@media all and (max-width: 1024px) {
+    .places {
+        margin-top: 102px;
+    }
+
+    .place {
+        grid-template-columns: calc(340px + (100vw - 768px)/(1024 - 768)*(440 - 340)) calc(352px + (100vw - 768px)/(1024 - 768)*(456 - 352));
+        grid-row-gap: 40px;
+        grid-column-gap: calc(28px + (100vw - 768px)/(1024 - 768)*(32 - 28));
+    }
+
+    .place__title {
+        font-size: calc(42px + (100vw - 768px)/(1024 - 768)*(72 - 42));
+        line-height: calc(46px + (100vw - 768px)/(1024 - 768)*(65 - 46));
+    }
+
+    .place__paragraphs {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .place__paragraphs .place__paragraph:last-child {
+        margin-top: 24px;
+    }
+
+}
+
+
+@media all and (max-width: 767px) {
+    .places {
+        margin-top: calc(64px + (100vw - 375px)/(768 - 375)*(102 - 64));
+    }
+
+    .place {
+        grid-template-columns: calc(343px + (100vw - 375px)/(768 - 374)*(340 - 343));
+        grid-row-gap: calc(32px + (100vw - 375px)/(768 - 375)*(40 - 24));
+    }
+
+    .place__website {
+        display: none;
+    }
+
+    .place__title {
+        font-size: calc(32px + (100vw - 375px)/(768 - 375)*(42 - 32));
+        line-height: calc(35px + (100vw - 375px)/(768 - 375)*(46 - 35));
+    }
+}
+
+
+@media all and (max-width: 375px) {
+    .places {
+        margin-top: 64px;
+    }
+
+    .place {
+        grid-template-columns: 100vw;
+        grid-row-gap: 24px;
+    }
+
+    .place__website {
+        display: none;
+    }
+
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+
+        margin-left: 16px;
+    }
+
+    .place__paragraphs {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}

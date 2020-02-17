@@ -1,0 +1,30 @@
+.main__link_red {
+  position: absolute;
+  top: 404px;
+
+  margin-left: 2.6%;
+
+  background-color: var(--color-red);
+  color: var(--color-gray6);
+}
+
+
+
+@media all and (max-width: 1920px) {
+  .main__link_red {
+    top: calc(255px + (404 - 255)*(100vw - 1024px)/(1920 - 1024));
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .main__link_red {
+      top: 25.9vw;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .main__link_red {
+    top: 36.8vw;
+    margin-left: 0px;
+  }
+}

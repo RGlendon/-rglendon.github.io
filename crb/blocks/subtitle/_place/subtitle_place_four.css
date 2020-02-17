@@ -1,0 +1,12 @@
+.subtitle_place_four {
+  font-style: normal;
+  font-weight: 500;
+  /* font-size: 20px;
+  line-height: 22px; */
+  font-size: 20rem;
+  line-height: 1.1;
+  
+  letter-spacing: 0.015em;
+
+  margin-top: 20px;
+}

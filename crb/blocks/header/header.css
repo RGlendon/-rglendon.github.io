@@ -1,0 +1,59 @@
+/* @import url('../../vendor/Inter/Inter.css'); */
+
+@import url('../logo/logo.css');
+@import url('../logo/_place/logo_place_header.css');
+
+@import url('../header/__link/header__link.css');
+@import url('__left-side/header__left-side.css');
+@import url('__nav/header__nav.css');
+@import url('__right-side/header__right-side.css');
+@import url('__glasses/header__glasses.css');
+@import url('__btn-search/header__btn-search.css');
+@import url('__hint/header__hint.css');
+@import url('__wrapper/header__wrapper.css');
+
+
+.header {
+    display: flex;
+
+    font-family: 'Inter';
+
+    position: relative;
+}
+
+
+.header__input-search {
+    width: 100%;
+    background-color: inherit;
+    
+    /* font-size: 34px; */
+    font-size: 34rem;
+
+    border: 0px;
+    border-bottom: 1px solid var(--color-dark);
+}
+
+.header__input-search:focus {
+    outline: none;
+}
+
+
+
+
+
+@media all and (min-width: 375px) and (max-width: 1024px) {
+    .header__input-search {
+        /* font-size: calc(12px + (34 - 12)*(100vw - 375px)/(1024 - 375)); */
+        font-size: calc(12rem + (34 - 12)*(100vw - 375px)/(1024 - 375));
+    }
+  }
+  
+  @media all and (max-width: 375px) {
+    .header__input-search {
+      /* font-size: 12px; */
+      font-size: 12rem;
+    }
+  }
+
+
+

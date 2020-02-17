@@ -1,0 +1,30 @@
+.logo {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  /* font-size: 34px; */
+  font-size: 34rem;
+  /* line-height: 93px; */
+  line-height: 2.7352;
+
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+@media all and (max-width: 1024px) {
+  .logo {
+      /* font-size: calc(12px + (34 - 12)*(100vw - 375px)/(1024 - 375)); */
+      font-size: calc(12rem + (34 - 12)*(100vw - 375px)/(1024 - 375));
+      /* line-height: calc(22px + (93 - 22)*(100vw - 375px)/(1024 - 375)); */
+      line-height: calc(22rem + (93 - 22)*(100vw - 375px)/(1024 - 375));
+  }
+}
+
+@media all and (max-width: 375px) {
+  .logo {
+    /* font-size: 12px; */
+    font-size: 12rem;
+    /* line-height: 22px; */
+    line-height: 1.83;
+  }
+}

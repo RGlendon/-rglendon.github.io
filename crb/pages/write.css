@@ -1,0 +1,52 @@
+@import url('../vendor/Inter/inter.css');
+
+@import url('../blocks/button/button.css');
+@import url('../blocks/title/title.css');
+@import url('../blocks/title/_place/title_place_two.css');
+@import url('../blocks/title/_place/title_place_three.css');
+@import url('../blocks/title/_place/title_place_four.css');
+@import url('../blocks/subtitle/subtitle.css');
+@import url('../blocks/subtitle/_place/subtitle_place_three.css');
+@import url('../blocks/subtitle/_place/subtitle_place_four.css');
+@import url('../blocks/subtitle/_place/subtitle_place_two.css');
+
+
+
+@import url('../blocks/header/header_write.css');
+
+@import url('../blocks/form/form.css');
+@import url('../blocks/menu/menu.css');
+
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/back/back.css');
+
+
+
+
+/* header, nav, main, footer, section, article {
+    border: 1px solid blue;
+}
+
+div, p, ul, li, h1, h2, h3, h4, img, a {
+    border: 1px solid red;
+} */
+
+
+.page {
+    color:  #F2F2F2;
+
+    max-width: 1920px;
+
+    margin: 0px auto;
+
+    position: relative;
+}
+
+
+.link {
+    opacity: 1;
+    transition: opacity .3s ease;
+}
+.link:hover {
+    opacity: .5;
+}

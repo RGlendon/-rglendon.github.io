@@ -1,0 +1,23 @@
+.video__item {
+    position: relative;
+
+    width: 49%;
+}
+
+.video__item:hover .video__background {
+    opacity: 0.8;
+}
+
+
+
+
+
+@media all and (max-width: 767px) {
+    .video__item {
+        width: 100%;
+    }
+
+    .video__item:first-of-type {
+        margin-bottom: 8px;
+    }
+}

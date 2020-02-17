@@ -1,0 +1,5 @@
+.main__useful {
+    grid-area: useful;
+    background-color: var(--color-gray6);
+    color: var(--color-red);
+}

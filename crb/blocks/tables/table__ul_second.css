@@ -1,0 +1,191 @@
+.table__ul_second {
+  margin-top: 40px;
+}
+
+.table__I {
+  display: grid;
+  border-right: 1px solid #F36956;
+  border-bottom: 1px solid #F36956;
+
+  grid-template-columns: 2fr repeat(12, 1fr);
+  grid-template-rows: 62px 62px 62px;
+
+  grid-template-areas: 
+  "a3 a3 a3 a3 a3 a3 a4 a4 a4 a4 a4 a2 a2"
+  "c2 c3 c4 c6 c8 c8 y1 y2 y3 y4 y5 a2 a2"
+  "d2 d3 d4 d5 d6 d7 d8 d9 d9 d9 d9 d9 d9"
+  ;
+}
+
+.table__II {
+  display: grid;
+  border-right: 1px solid #F36956;
+  border-bottom: 1px solid #F36956;
+
+  grid-template-columns: 2fr repeat(12, 1fr);
+  grid-template-rows: 62px 62px 62px;
+
+  grid-template-areas: 
+  "a3 a3 a3 a3 a3 a3 a4 a4 a4 a4 a4 a2 a2"
+  "c2 c3 c4 c6 c8 c8 y1 y2 y3 y4 y5 a2 a2"
+  "e2 e3 e4 e5 e6 e7 e8 e8 e8 e8 e8 e8 e8"
+  ;
+}
+
+.table__III {
+  display: grid;
+  border-right: 1px solid #F36956;
+  border-bottom: 1px solid #F36956;
+
+  grid-template-columns: 2fr repeat(12, 1fr);
+  grid-template-rows: 62px 62px 62px;
+
+  grid-template-areas: 
+  "a3 a3 a3 a3 a3 a3 a4 a4 a4 a4 a4 a2 a2"
+  "c2 c3 c4 c6 c8 c8 y1 y2 y3 y4 y5 a2 a2"
+  "f2 f3 f4 f5 f6 f7 f8 f8 f8 f8 f8 f8 f8"
+  ;
+}
+
+.table__IV {
+  display: grid;
+  border-right: 1px solid #F36956;
+  border-bottom: 1px solid #F36956;
+
+  grid-template-columns: 2fr repeat(12, 1fr);
+  grid-template-rows: 62px 62px 62px;
+
+  grid-template-areas: 
+  "a3 a3 a3 a3 a3 a3 a4 a4 a4 a4 a4 a2 a2"
+  "c2 c3 c4 c6 c8 c8 y1 y2 y3 y4 y5 a2 a2"
+  "g2 g3 g4 g5 g6 g7 g8 g9 g9 g9 g9 g9 g9"
+  ;
+}
+
+
+.table__V {
+  display: grid;
+  border-right: 1px solid #F36956;
+  border-bottom: 1px solid #F36956;
+
+  grid-template-columns: 2fr repeat(12, 1fr);
+  grid-template-rows: 62px 62px 62px;
+
+  grid-template-areas: 
+  "a3 a3 a3 a3 a3 a3 a4 a4 a4 a4 a4 a2 a2"
+  "c2 c3 c4 c6 c8 c8 y1 y2 y3 y4 y5 a2 a2"
+  "h2 h3 h4 h5 h6 h7 h7 h7 h7 h7 h7 h7 h7"
+  ;
+}
+
+.table__VI {
+  display: grid;
+  border-right: 1px solid #F36956;
+  border-bottom: 1px solid #F36956;
+
+  grid-template-columns: 2fr repeat(12, 1fr);
+  grid-template-rows: 62px 62px 62px;
+
+  grid-template-areas: 
+  "a3 a3 a3 a3 a3 a3 a4 a4 a4 a4 a4 a2 a2"
+  "c2 c3 c4 c6 c8 c8 y1 y2 y3 y4 y5 a2 a2"
+  "i2 i2 i2 i2 i2 i2 i2 i2 i2 i2 i2 i2 i2"
+  ;
+}
+
+.table__VII {
+  display: grid;
+  border-right: 1px solid #F36956;
+  border-bottom: 1px solid #F36956;
+
+  grid-template-columns: 2fr repeat(12, 1fr);
+  grid-template-rows: 62px 62px 62px;
+
+  grid-template-areas: 
+  "a3 a3 a3 a3 a3 a3 a4 a4 a4 a4 a4 a2 a2"
+  "c2 c3 c4 c6 c8 c8 y1 y2 y3 y4 y5 a2 a2"
+  "j2 j3 j3 j3 j3 j3 j3 j3 j3 j3 j3 j3 j3"
+  ;
+}
+
+.table__VIII {
+  display: grid;
+  border-right: 1px solid #F36956;
+  border-bottom: 1px solid #F36956;
+
+  grid-template-columns: 2fr repeat(12, 1fr);
+  grid-template-rows: 62px 62px 62px;
+
+  grid-template-areas: 
+  "a3 a3 a3 a3 a3 a3 a4 a4 a4 a4 a4 a2 a2"
+  "c2 c3 c4 c6 c8 c8 y1 y2 y3 y4 y5 a2 a2"
+  "k2 k3 k4 k5 k6 k7 k7 k7 k7 k7 k7 k7 k7"
+  ;
+}
+
+.table__IX {
+  display: grid;
+  border-right: 1px solid #F36956;
+  border-bottom: 1px solid #F36956;
+
+  grid-template-columns: 2fr repeat(12, 1fr);
+  grid-template-rows: 62px 62px 62px;
+
+  grid-template-areas: 
+  "a3 a3 a3 a3 a3 a3 a4 a4 a4 a4 a4 a2 a2"
+  "c2 c3 c4 c6 c8 c8 y1 y2 y3 y4 y5 a2 a2"
+  "l2 l3 l4 l5 l6 l7 l7 l7 l7 l7 l7 l7 l7"
+  ;
+}
+
+
+.table__X {
+  display: grid;
+  border-right: 1px solid #F36956;
+  border-bottom: 1px solid #F36956;
+
+  grid-template-columns: 2fr repeat(12, 1fr);
+  grid-template-rows: 62px 62px 62px;
+
+  grid-template-areas: 
+  "a3 a3 a3 a3 a3 a3 a4 a4 a4 a4 a4 a2 a2"
+  "c2 c3 c4 c6 c8 c8 y1 y2 y3 y4 y5 a2 a2"
+  "m2 m3 m4 m4 m4 m5 m6 m7 m8 m9 m10 m11 m12"
+  ;
+}
+
+.table__XI {
+  display: grid;
+  border-right: 1px solid #F36956;
+  border-bottom: 1px solid #F36956;
+
+  grid-template-columns: 2fr repeat(12, 1fr);
+  grid-template-rows: 62px 62px 62px;
+
+  grid-template-areas: 
+  "a3 a3 a3 a3 a3 a3 a4 a4 a4 a4 a4 a2 a2"
+  "c2 c3 c4 c6 c8 c8 y1 y2 y3 y4 y5 a2 a2"
+  "n2 n3 n4 n5 n6 n7 n7 n7 n7 n7 n7 n7 n8"
+  ;
+}
+
+.table__XII {
+  display: grid;
+  border-right: 1px solid #F36956;
+  border-bottom: 1px solid #F36956;
+
+  grid-template-columns: 2fr repeat(12, 1fr);
+  grid-template-rows: 90px;
+
+  grid-template-areas: 
+  "o1 o1 o1 o1 o1 o1 o1 o1 o1 o1 o1 o1 o1"
+  ;
+}
+
+
+
+@media all and (min-width: 1025px) {
+  .table__ul_second {
+    display: none;
+  }
+}

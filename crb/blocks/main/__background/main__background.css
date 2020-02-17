@@ -1,0 +1,12 @@
+.main__background {
+    background-image: url('../../../images/news__background.jpg');
+    background-position: bottom;
+    background-size: cover;
+}
+
+
+@media all and (max-width: 768px) {
+    .main__background {
+        display: none;
+    }
+}

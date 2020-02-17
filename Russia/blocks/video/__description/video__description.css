@@ -1,0 +1,30 @@
+.video__description {
+    position: absolute;
+
+    height: fit-content;
+
+    bottom: 30px;
+    left: 30px;
+}
+
+
+@media all and (max-width: 1024px) {
+    .video__description {
+        bottom: calc(24px + (100vw - 768px)/(1024 - 768)*(30 - 24));
+        left: calc(24px + (100vw - 768px)/(1024 - 768)*(30 - 24));
+    }
+}
+
+@media all and (max-width: 768px) {
+    .video__description {
+        bottom: 24px;
+        left: 24px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .video__description {
+        bottom: calc(16px + (100vw - 320px)/(375 - 320)*(24 - 16));
+        left: calc(16px + (100vw - 320px)/(375 - 320)*(24 - 16));
+    }
+}

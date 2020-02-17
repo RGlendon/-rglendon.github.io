@@ -1,0 +1,45 @@
+/* @import url('../../vendor/Inter/Inter.css'); */
+
+@import url('__fieldset/form__fieldset.css');
+@import url('__input-container/form__input-container.css');
+@import url('__label/form__label.css');
+@import url('__item/form__item.css');
+@import url('__cell/form__cell.css');
+@import url('__line/form__line.css');
+@import url('__handlers/form__handlers.css');
+@import url('__button/form__button.css');
+
+
+
+
+
+.form {
+  font-family: 'Inter';
+
+  padding: 90px 210px 265px;
+
+  background-color: var(--color-gray6);
+  color: var(--color-red);
+}
+
+
+@media all and (max-width: 1920px) {
+  .form {
+    padding: 4.68vw 10.93vw 13.8vw;
+  }
+}
+
+@media all and (max-width: 1440px) {
+  .form {
+    padding: 6.83vw 5.85vw 12.36vw;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .form {
+    padding-top: 12vw;
+    padding-left: 5.33vw;
+    padding-right: 5.33vw;
+    padding-bottom: 80px;
+  }
+}

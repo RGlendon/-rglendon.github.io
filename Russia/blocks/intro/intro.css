@@ -1,0 +1,39 @@
+@import url('../../vendor/Inter-3.11/Inter\ \(Web\)/Inter.css');
+
+@import url('__title/intro__title.css');
+@import url('__content-item/intro__content-item.css');
+@import url('__text/intro__text.css');
+@import url('__li/intro__li.css');
+
+.intro {
+    font-family: 'Inter';
+
+    width: calc(100vw - 2*48px);
+    max-width: 984px;
+
+    margin: 80px auto 0px;
+}
+
+
+@media all and (max-width: 1024px) {
+    .intro {
+        width: calc(100vw - 2*(24px + (100vw - 768px)/(1024 - 768)*(48 - 24)));
+    }
+}
+
+@media all and (max-width: 768px) {
+    .intro {
+        width: calc(343px + (100vw - 375px)/(768 - 375)*(720 - 343));
+
+        margin-top: calc(64px + (100vw - 375px)/(768 - 375)*(80 - 64));
+    }
+}
+
+@media all and (max-width: 375px) {
+    .intro {
+        width: calc(100vw - 2*16px);
+
+        margin-top: 64px;
+    }
+}
+

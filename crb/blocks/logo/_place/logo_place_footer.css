@@ -1,0 +1,25 @@
+.logo_place_footer {
+    border-bottom: 2px solid var(--color-gray6);
+}
+
+
+
+@media all and (max-width: 1024px) {
+    .logo_place_footer {
+      /* font-size: calc(20px + (34 - 20)*(100vw - 375px)/(1024 - 375)); */
+      font-size: calc(20rem + (34 - 20)*(100vw - 375px)/(1024 - 375));
+      /* line-height: calc(79px + (93 - 79)*(100vw - 375px)/(1024 - 375)); */
+      line-height: calc(79rem + (93 - 79)*(100vw - 375px)/(1024 - 375));
+    }
+  }
+  
+  @media all and (max-width: 375px) {
+    .logo_place_footer {
+      /* font-size: 20px; */
+      font-size: 20rem;
+      /* line-height: 79px; */
+      line-height: 79rem;
+
+      border-bottom: 1px solid;
+    }
+  }

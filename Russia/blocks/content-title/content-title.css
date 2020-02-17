@@ -1,0 +1,40 @@
+/* не понятно, зачем выносить этот элемент отдельным блоком.
+сюда тоже по идее нужно подключать шрифты, тогда кода будет больше: шрифт будет импортироваться 
+в данном блоке и дополнительно в других блоках (video и тд) */
+
+.content-title {
+    max-width: 750px;
+    /* width: 62.5%; */
+
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+
+    margin: 0px auto;
+}
+
+
+
+@media all and (max-width: 1024px) {
+    .content-title {
+        font-size: calc(42px + (100vw - 768px)/(1024 - 768)*(72 - 42));
+        line-height: calc(46px + (100vw - 768px)/(1024 - 768)*(78 - 46));
+    }
+}
+
+@media all and (max-width: 768px) {
+    .content-title {
+        font-size: calc(32px + (100vw - 375px)/(768 - 375)*(42 - 32));
+        line-height: calc(35px + (100vw - 375px)/(768 - 375)*(46 - 35));
+    }
+}
+
+@media all and (max-width: 375px) {
+    .content-title {
+        font-size: 32px;
+        line-height: 35px;
+
+        width: calc(100% - 2*16px);
+    }
+}

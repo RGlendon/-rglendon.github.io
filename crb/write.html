@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="ЦРБ, лечение, выздоровление">
+    <meta name="description" content="Эффективное ление и тому подобное">
+    <meta name="author" content="Михаил Кузнецов, RGlen">
+    <link rel="stylesheet" href="vendor/common.css">
+    <link rel="stylesheet" href="vendor/normalize.css">
+    <link rel="stylesheet" href="pages/write.css">
+    <script>
+      if (localStorage.getItem('contrast')) {
+        document.documentElement.classList.add('contrast');
+      }
+      if (localStorage.getItem('font') == 1) {
+        document.documentElement.classList.add('middle');
+      } else if (localStorage.getItem('font') == 2) {
+        document.documentElement.classList.add('grand');
+      }
+    </script>
+    <title>Write to us</title>
+</head>
+<body>
+  <div class="page">
+    
+    <header class="header">
+      <div class="header__left-side">
+        <div class="header__nav"></div>
+        <h1 class="logo logo_place_header"><a href="index.html" class="header__link link">Хвойнинская ЦРБ</a></h1>
+      </div>
+      <div class="header__right-side header__right-side_write"></div>
+      <form name="header" class="header__form">
+        <div class="header__wrapper">
+          <input name="search" class="header__input-search" type="text">
+        </div>
+        <button class="header__btn-search"></button>
+      </form>
+    </header>
+
+    <nav class="menu">
+        <ul class="menu__ul menu__ul_outer">
+            <li class="menu__target"><a href="#" class="menu__link menu__link_outer">Пациентам</a>
+                <ul class="menu__ul menu__ul_inner">
+                    <li><a href="#" class="menu__link">Расписание</a></li>
+                    <li><a href="#" class="menu__link">Основные виды деятельности</a></li>
+                    <li><a href="prophylaxy.html" class="menu__link">Профилактика</a></li>
+                    <li><a href="#" class="menu__link">Запись на прием</a></li>
+                    <li><a href="#" class="menu__link">ГОСУСЛУГИ запись на прием</a></li>
+                    <li><a href="write.html" class="menu__link">Написать нам</a></li>
+                    <li><a href="#" class="menu__link">Прочая информация</a></li>
+                </ul>
+            </li>
+            <li><a href="#" class="menu__link menu__link_outer">Платные услуги</a></li>
+            <li><a href="#" class="menu__link menu__link_outer">О нас</a></li>
+            <li class="menu__target"><a href="#" class="menu__link menu__link_outer">Противокорупционные действия</a>
+                <ul class="menu__ul menu__ul_inner">
+                    <li><a href="#" class="menu__link">Комиссия по противодействию коррупции</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="form">
+      <form class="form__write" name="write">
+        <h2 class="title">Написать нам</h2>
+        
+        <fieldset class="form__fieldset">
+          <div class="form__input-container">
+            <div class="form__cell">
+              <label for="oneitem" class="form__label title title_place_four">Имя*</label>
+              <input type="text" class="form__item" id="oneitem" required>
+            </div>
+            <div class="form__cell">
+              <label for="lastName" class="form__label title title_place_four">Фамилия*</label>
+              <input type="text" class="form__item" id="lastName" required>
+            </div>
+            <div class="form__cell">
+              <label for="phone" class="form__label title title_place_four">Телефон*</label>
+              <input type="tel" class="form__item" id="phone" required>
+            </div>
+            <div class="form__cell">
+              <label for="email" class="form__label title title_place_four">Email*</label>
+              <input type="email" class="form__item" id="email" required>
+            </div>
+            <div class="form__cell">
+              <label for="comments" class="form__label title title_place_four">Комментарии</label>
+              <textarea class="form__item" id="comments"></textarea>
+              <div class="form__line"></div>
+              <div class="form__line"></div>
+              <div class="form__line"></div>
+              <div class="form__line"></div>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="form__handlers">
+          <button class="form__button" type="submit">Отправить</button>
+        </fieldset>
+      </form>
+    </section>
+
+
+    <a class="back" title="Наверх">&uarr;</a>
+
+
+    <footer class="footer">
+        <h1 class="logo logo_place_footer">Хвойнинская ЦРБ</h1>
+        <ul class="footer__ul footer__ul_outer">
+            <li class="footer__li footer__li_outer"><a href="#" class="footer__link footer__link_outer">Контакты</a></li>
+            <li class="footer__li footer__li_outer ">
+              <input type="checkbox" checked class="footer__input">
+              <a href="#" class="footer__link footer__link_outer">Пациентам</a>
+              <div class="footer__target"></div> 
+              <ul class="footer__ul footer__ul_inner">
+                <li class="footer__li footer__li_inner"><a href="#" class="footer__link footer__link_inner">Расписание</a></li>
+                <li class="footer__li footer__li_inner"><a href="#" class="footer__link footer__link_inner">Основные виды деятельности</a></li>
+                <li class="footer__li footer__li_inner"><a href="prophylaxy.html" class="footer__link footer__link_inner">Профилактика</a></li>
+                <li class="footer__li footer__li_inner"><a href="#" class="footer__link footer__link_inner">Запись на прием</a></li>
+                <li class="footer__li footer__li_inner"><a href="#" class="footer__link footer__link_inner">ГОСУСЛУГИ запись на прием</a></li>
+                <li class="footer__li footer__li_inner"><a href="write.html" class="footer__link footer__link_inner">Написать нам</a></li>
+                <li class="footer__li footer__li_inner"><a href="#" class="footer__link footer__link_inner">Прочая информация</a></li>
+              </ul>
+            </li>
+            <li class="footer__li footer__li_outer"><a href="#" class="footer__link footer__link_outer">Платные услуги</a></li>
+            <li class="footer__li footer__li_outer"><a href="#" class="footer__link footer__link_outer">О нас</a></li>
+            <li class="footer__li footer__li_outer">
+              <input type="checkbox" checked class="footer__input">
+              <a href="#" class="footer__link footer__link_outer">Противодействие коррупции</a>
+              <div class="footer__target"></div>
+              <ul class="footer__ul footer__ul_inner">
+                <li class="footer__li footer__li_inner"><a href="#" class="footer__link footer__link_inner">Комиссия по противодействию коррупции</a></li>
+              </ul>
+            </li>
+          </ul>
+    </footer>
+
+    <script src="js/common.js"></script>
+  </div>
+</body>
+</html>
